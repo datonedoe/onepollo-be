@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World War Three!"', () => {
-      expect(appController.getHello()).toBe('Hello World War Three!');
+    it('should return "Hello World War Four!"', () => {
+      expect(appController.getHello()).toBe('Hello World War Four!');
     });
   });
 });
